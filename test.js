@@ -1,4 +1,6 @@
 const {sum, fromDollarToYen, fromEuroToDollar, fromYenToPound} = require('./app.js');
+//Sólo se importa una vez acá arriba
+//Debe importarse en el mismo orden en que se exporta
 test ('adds 14 + 9 to equal 23',() => {
     let total = sum(14,9);
     expect(total).toBe(23);

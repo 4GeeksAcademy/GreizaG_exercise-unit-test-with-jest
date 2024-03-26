@@ -26,5 +26,7 @@ const fromYenToPound = (yenQty) => {
     return Math.round(yenQty*0.87/156.5)
 }
 
+// Sólo se exporta una vez
+//El mismo orden en que se exporta se debe hacer la importación
 module.exports = {sum, fromDollarToYen, fromEuroToDollar,
     fromYenToPound}
